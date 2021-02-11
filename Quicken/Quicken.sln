@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quicken.Poker", "Quicken.Poker\Quicken.Poker.csproj", "{74D98EE3-F41F-4B81-B1E9-35577288900A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quicken.Poker.REST", "Quicken.Poker.REST\Quicken.Poker.REST.csproj", "{4A1A4439-D1C2-48C9-9012-82A8892DFBA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C. Tests", "C. Tests", "{CA53F01D-68D5-4B93-80CA-B5AC50D689D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quicken.Poker.FastEvalService", "Quicken.Poker.FastEvalService\Quicken.Poker.FastEvalService.csproj", "{035B2345-A338-4542-B0BB-B5157E8DBCCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quicken.Poker.FastEvalService.Tests", "Quicken.Poker.FastEvalService.Tests\Quicken.Poker.FastEvalService.Tests.csproj", "{47EE1159-271B-4608-8E60-A2E36DDA0243}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "A. Core", "A. Core", "{0EA24F83-5D38-47C4-872A-C8DA0C506F62}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "B. Api", "B. Api", "{915256B6-AEF4-4496-8C17-632300693556}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{F76935BA-8867-4B51-BF1E-0F88A4A7BA9B}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74D98EE3-F41F-4B81-B1E9-35577288900A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D98EE3-F41F-4B81-B1E9-35577288900A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D98EE3-F41F-4B81-B1E9-35577288900A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D98EE3-F41F-4B81-B1E9-35577288900A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1A4439-D1C2-48C9-9012-82A8892DFBA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1A4439-D1C2-48C9-9012-82A8892DFBA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1A4439-D1C2-48C9-9012-82A8892DFBA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1A4439-D1C2-48C9-9012-82A8892DFBA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035B2345-A338-4542-B0BB-B5157E8DBCCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035B2345-A338-4542-B0BB-B5157E8DBCCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035B2345-A338-4542-B0BB-B5157E8DBCCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035B2345-A338-4542-B0BB-B5157E8DBCCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47EE1159-271B-4608-8E60-A2E36DDA0243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EE1159-271B-4608-8E60-A2E36DDA0243}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EE1159-271B-4608-8E60-A2E36DDA0243}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EE1159-271B-4608-8E60-A2E36DDA0243}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{74D98EE3-F41F-4B81-B1E9-35577288900A} = {0EA24F83-5D38-47C4-872A-C8DA0C506F62}
+		{4A1A4439-D1C2-48C9-9012-82A8892DFBA4} = {915256B6-AEF4-4496-8C17-632300693556}
+		{035B2345-A338-4542-B0BB-B5157E8DBCCF} = {0EA24F83-5D38-47C4-872A-C8DA0C506F62}
+		{47EE1159-271B-4608-8E60-A2E36DDA0243} = {CA53F01D-68D5-4B93-80CA-B5AC50D689D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6635CC0B-483A-494E-984E-BE36C2350C42}
+	EndGlobalSection
+EndGlobal
