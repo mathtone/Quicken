@@ -60,7 +60,7 @@ Input:
     ]
   },
 {
-    "name": "One",
+    "name": "Two",
     "cards": [
       "7H","2S","AH","4H","5H"
     ]
@@ -89,7 +89,7 @@ Output (it's a tie, both are winners):
   },
   {
     "hand": {
-      "name": "One",
+      "name": "Two",
       "cards": [
         "7H",
         "2S",
@@ -116,7 +116,7 @@ Input:
     ]
   },
 {
-    "name": "One",
+    "name": "Two",
     "cards": [
       "AH","3S","3H","4H","2H"
     ]
@@ -145,7 +145,7 @@ Output (Pair over pair, 3's win):
   },
   {
     "hand": {
-      "name": "One",
+      "name": "Two",
       "cards": [
         "AH",
         "3S",
