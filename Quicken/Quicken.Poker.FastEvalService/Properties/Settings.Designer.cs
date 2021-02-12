@@ -61,6 +61,24 @@ namespace Quicken.Poker.FastEvalService.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Number of cards must equal 5.
+        /// </summary>
+        internal static string Error_Cards_Not_5 {
+            get {
+                return ResourceManager.GetString("Error_Cards_Not_5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Input is null or empty.
+        /// </summary>
+        internal static string Error_Cards_NullOrEmpty {
+            get {
+                return ResourceManager.GetString("Error_Cards_NullOrEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Flush.
         /// </summary>
         internal static string HandClass_Flush {

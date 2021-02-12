@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace Quicken.Poker.REST.Controllers {
 
 	[ApiController]
-	[Route("[controller]")]
+	[Route("[controller]/[action]")]
 	public class PokerServiceController : ControllerBase, IPokerService {
 
 		protected IPokerService PokerService { get; }

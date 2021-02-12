@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Error_Cards_Not_5" xml:space="preserve">
+    <value>Number of cards must equal 5</value>
+  </data>
+  <data name="Error_Cards_NullOrEmpty" xml:space="preserve">
+    <value>Input is null or empty</value>
+  </data>
   <data name="HandClass_Flush" xml:space="preserve">
     <value>Flush</value>
   </data>
