@@ -9,7 +9,6 @@ Quicken.Poker.FastEvalService.Tests - NUnit Test scenarios for the HandEvaluator
 Core evaluator code is in: Quicken.Poker.FastEvalService.FastHandEvaluator.cs
 
 Portions of this program are based on work by the following:
-
 Kevin Suffecool (2001)
 Paul Senzee (2006)
 
