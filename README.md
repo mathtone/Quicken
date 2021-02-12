@@ -1,6 +1,18 @@
 This is a C# port of Cactus Kev's 5 card poker hand evaluator wrapped in a .NET REST API.  The API documentation is provided via swagger @ /swagger/index.html.
 
+Projects:
+Quicken.Poker - Core classes & contracts
+Quicken.Poker.FastEvalService - Fast poker hand evaluator
+Quicken.Poker.REST - ASP.Net MVC Web API project / REST API
+Quicken.Poker.FastEvalService.Tests - NUnit Test scenarios for the HandEvaluator Service
+
 Core evaluator code is in: Quicken.Poker.FastEvalService.FastHandEvaluator.cs
+
+Portions of this program are based on work by the following:
+
+Kevin Suffecool (2001)
+Paul Senzee (2006)
+
 
 Sample Requests (POST to: /PokerService/Evaluate):
 
