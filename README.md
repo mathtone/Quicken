@@ -13,7 +13,6 @@ Portions of this program are based on work by the following:
 Kevin Suffecool (2001)
 Paul Senzee (2006)
 
-
 Sample Requests (POST to: /PokerService/Evaluate):
 
 Input:
